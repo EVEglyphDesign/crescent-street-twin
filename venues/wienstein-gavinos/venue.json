@@ -1,0 +1,43 @@
+{
+  "name": "Wienstein & Gavino's",
+  "slug": "wienstein-gavinos",
+  "address": "1434 Rue Crescent, Montréal, QC H3G 2B6",
+  "blurb_en": "Lively Italian restaurant-bar with wood-fired pizza, pasta and craft cocktails.",
+  "blurb_fr": "Resto-bar italien animé: pizza au four à bois, pâtes et cocktails.",
+  "known_for": "Italian restaurant-bar, open kitchen, craft cocktails, lively terrace",
+  "hours": "Every day 11:00–02:00 (kitchen until 00:00)",
+  "source_url": "https://www.wgmtl.com/",
+  "menu": [
+    {
+      "name": "Pizza Giardiniera",
+      "price": "23.00 $",
+      "section": "Plats / Mains"
+    },
+    {
+      "name": "Pomodoro Pasta",
+      "price": "20.00 $",
+      "section": "Plats / Mains"
+    },
+    {
+      "name": "Polpette (meatballs)",
+      "price": "18.00 $",
+      "section": "Bouchées / Bites"
+    },
+    {
+      "name": "Ossobuco",
+      "price": "38.00 $",
+      "section": "Plats / Mains"
+    },
+    {
+      "name": "Garlic Bread with Cheese",
+      "price": "9.00 $",
+      "section": "Bouchées / Bites"
+    }
+  ],
+  "menu_source": "published",
+  "menu_source_url": "https://find-foodie.com/pdf/6312f2d60a2f25d9f6dbbeb0b953b42f.pdf",
+  "doordash_url": null,
+  "ubereats_url": "https://www.ubereats.com/ca/store/wienstein-and-gavinos/QkVAdy3-RUyakf0Yr2t1Jw",
+  "order_note_en": "Delivery via Uber Eats",
+  "order_note_fr": "Livraison via Uber Eats"
+}

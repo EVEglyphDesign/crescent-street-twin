@@ -53,9 +53,11 @@ A venue can request removal or correction of its listing, and a person can reque
 README.md          Repository front door and project commitments
 SOURCES.md         Venue-fact provenance and delivery/price status
 CREDITS.md         Photograph licences and AI-illustration labels
+venues/            One self-contained folder per location; see [venues/README.md](venues/README.md)
+venues/<slug>/     Venue record, factual venue page, and media/consent/scan placeholders
 docs/              GitHub Pages surface
 docs/index.html    Temporary placeholder, to be replaced by the site
-docs/data/         Future nightly scan outputs
+docs/data/         Future aggregate nightly scan outputs
 ```
 
 ## Licensing and image credits

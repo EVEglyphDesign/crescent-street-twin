@@ -1,0 +1,43 @@
+{
+  "name": "Brutopia",
+  "slug": "brutopia",
+  "address": "1219 Rue Crescent, Montréal, QC H3G 2B1",
+  "blurb_en": "In-house brewed ales and live bands nightly, small patio plus back terrace.",
+  "blurb_fr": "Bières brassées maison et groupes live chaque soir, terrasse arrière.",
+  "known_for": "Brewpub, live band music (showtime 22:00 nightly), terrace",
+  "hours": "Mon–Wed 11:30–01:00, Thu–Sat 11:30–03:00 (varies by source; open daily from early afternoon)",
+  "source_url": "https://www.brutopia.net/",
+  "menu": [
+    {
+      "name": "Poutine",
+      "price": "9.80 $",
+      "section": "Bouchées / Bites"
+    },
+    {
+      "name": "Nachos Classique",
+      "price": "9.35 $",
+      "section": "Bouchées / Bites"
+    },
+    {
+      "name": "Chicken Wings",
+      "price": "9.15 $",
+      "section": "Bouchées / Bites"
+    },
+    {
+      "name": "Quesadilla au Poulet",
+      "price": "10.45 $",
+      "section": "Bouchées / Bites"
+    },
+    {
+      "name": "Cochinita Tacos",
+      "price": "10.25 $",
+      "section": "Bouchées / Bites"
+    }
+  ],
+  "menu_source": "published",
+  "menu_source_url": "https://www.brutopia.net/menu",
+  "doordash_url": null,
+  "ubereats_url": null,
+  "order_note_en": "Dine-in only — no delivery platform found",
+  "order_note_fr": "Sur place seulement — aucune plateforme de livraison trouvée"
+}

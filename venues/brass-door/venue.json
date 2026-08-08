@@ -1,0 +1,44 @@
+{
+  "name": "The Brass Door Pub",
+  "slug": "brass-door",
+  "is_anchor": true,
+  "address": "2171 Rue Crescent, Montréal, QC H3G 2C1",
+  "blurb_en": "Friendly neighbourhood-feel pub with terrace and late-kitchen \"Nuit Brass\".",
+  "blurb_fr": "Pub chaleureux à ambiance de quartier, terrasse et « Nuit Brass » tardive.",
+  "known_for": "Neighbourhood-feel pub, terrace, late-kitchen \"Nuit Brass\" event",
+  "hours": "16:00–03:00 daily",
+  "source_url": "https://brassdoor.pub/",
+  "menu": [
+    {
+      "name": "6 Chicken Wings",
+      "price": "14.95 $",
+      "section": "Bouchées / Bites"
+    },
+    {
+      "name": "12 Chicken Wings",
+      "price": "19.95 $",
+      "section": "Bouchées / Bites"
+    },
+    {
+      "name": "Nachos",
+      "price": "15.95 $",
+      "section": "Bouchées / Bites"
+    },
+    {
+      "name": "The Brass Board",
+      "price": "22.95 $",
+      "section": "Bouchées / Bites"
+    },
+    {
+      "name": "Caesar Salad",
+      "price": "14.95 $",
+      "section": "Bouchées / Bites"
+    }
+  ],
+  "menu_source": "published",
+  "menu_source_url": "https://www.ubereats.com/ca/store/brass-door-pub-2171-rue-crescent/CeygJ0tnQXCRcgpwByncVw",
+  "doordash_url": null,
+  "ubereats_url": "https://www.ubereats.com/ca/store/brass-door-pub-2171-rue-crescent/CeygJ0tnQXCRcgpwByncVw",
+  "order_note_en": "Delivery via Uber Eats (DoorDash not available)",
+  "order_note_fr": "Livraison via Uber Eats (DoorDash non disponible)"
+}
