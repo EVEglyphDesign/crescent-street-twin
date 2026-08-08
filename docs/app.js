@@ -300,19 +300,6 @@
       ">Anonymous counts only, rounded to the nearest ten. No query ever returns a person.</p>";
     h += "</div>";
 
-    h += '<div class="pad" style="padding-top:14px">' +
-      '<a class="card photo palaiscard" href="#/palais" style="display:block">' +
-      IMG("crescent_street_rowhouses.jpg",
-          "A row of Montréal triplexes, illustrative — not the Palais itself",
-          "Une rangée de triplex montréalais, à titre illustratif — pas le Palais lui-même",
-          'style="height:170px;object-position:58% 72%"') +
-      '<span class="scrim"></span>' +
-      '<span class="cap"><p class="eyebrow"' + A("A Montréal tradition", "Une tradition montréalaise") + ">A Montréal tradition</p>" +
-      "<h2" + A("The Palace on Rachel Street", "Le Palais des Nains") + ">The Palace on Rachel Street</h2>" +
-      "<p" + A("Philippe and Rose Nicol built a house to their own measure and set the terms of their own visibility. Read why it is the example we follow.",
-               "Philippe et Rose Nicol ont bâti une maison à leur mesure et fixé eux-mêmes les conditions de leur visibilité. Voici pourquoi c’est l’exemple que nous suivons.") +
-      ">Philippe and Rose Nicol built a house to their own measure.</p></span></a></div>";
-
     h += '<div class="sectionhead"><h2' + A("The anchor", "Le lieu d’ancrage") + ">The anchor</h2>" +
       '<a class="more" href="#/places"' + A("All six →", "Les six →") + ">All six →</a></div>";
     h += '<div class="pad">' + venueCard(brass) + "</div>";
@@ -337,6 +324,20 @@
       "Aggregate counts by block. No person table exists in the schema.",
       "Comptes agrégés par tronçon. Aucune table d’individus dans le schéma.");
     h += "</div>";
+
+    h += '<div class="sectionhead"><h2' + A("A Montréal tradition", "Une tradition montréalaise") + ">A Montréal tradition</h2></div>";
+    h += '<div class="pad">' +
+      '<a class="card photo palaiscard" href="#/palais" style="display:block">' +
+      IMG("crescent_street_rowhouses.jpg",
+          "A row of Montréal triplexes, illustrative — not the Palais itself",
+          "Une rangée de triplex montréalais, à titre illustratif — pas le Palais lui-même",
+          'style="height:170px;object-position:58% 72%"') +
+      '<span class="scrim"></span>' +
+      '<span class="cap">' +
+      "<h2" + A("The Palace on Rachel Street", "Le Palais des Nains") + ">The Palace on Rachel Street</h2>" +
+      "<p" + A("Philippe and Rose Nicol built a house to their own measure and set the terms of their own visibility. Read why it is the example we follow.",
+               "Philippe et Rose Nicol ont bâti une maison à leur mesure et fixé eux-mêmes les conditions de leur visibilité. Voici pourquoi c’est l’exemple que nous suivons.") +
+      ">Philippe and Rose Nicol built a house to their own measure.</p></span></a></div>";
     return h;
   }
 
