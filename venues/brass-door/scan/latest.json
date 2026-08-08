@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-08-08T01:20:00Z",
+  "slug": "brass-door",
+  "name": "The Brass Door Pub",
+  "address": "2171 Rue Crescent, Montréal, QC H3G 2C1",
+  "status": "source_unreachable",
+  "signals": [],
+  "content_hash": null,
+  "last_seen": null,
+  "http_status": {
+    "https://brassdoor.pub/": 200,
+    "https://www.ubereats.com/ca/store/brass-door-pub-2171-rue-crescent/CeygJ0tnQXCRcgpwByncVw": 200
+  },
+  "source_urls": {
+    "source_url": "https://brassdoor.pub/",
+    "menu_source_url": "https://www.ubereats.com/ca/store/brass-door-pub-2171-rue-crescent/CeygJ0tnQXCRcgpwByncVw"
+  }
+}

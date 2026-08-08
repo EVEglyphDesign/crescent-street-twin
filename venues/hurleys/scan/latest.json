@@ -1,0 +1,90 @@
+{
+  "generated_at": "2026-08-08T01:20:00Z",
+  "slug": "hurleys",
+  "name": "Hurley's Irish Pub",
+  "address": "1225 Rue Crescent, Montréal, QC H3G 2B1",
+  "status": "unchanged",
+  "signals": [
+    {
+      "snippet": "…and chips, grab a quick bite before a Habs game, or catch our biweekly specials before they run out, we’re here for you, from 11 am to 11 pm everyday.…",
+      "type": "special",
+      "source_url": "https://www.hurleysirishpub.com/",
+      "confidence": "high"
+    },
+    {
+      "snippet": "…re Drinks on tap or full bar Bookings great group outings Entertainment live music 7 days a week Sports sports room upstairs Baptiste Gilistro There’s a r…",
+      "type": "live_music",
+      "source_url": "https://www.hurleysirishpub.com/",
+      "confidence": "medium"
+    },
+    {
+      "snippet": "…re here for you, from 11 am to 11 pm everyday. Which nights do you have live music? We have live music every night we are open, 7/7. See above about keepi…",
+      "type": "live_music",
+      "source_url": "https://www.hurleysirishpub.com/",
+      "confidence": "high"
+    },
+    {
+      "snippet": "…m 11 am to 11 pm everyday. Which nights do you have live music? We have live music every night we are open, 7/7. See above about keeping it simple! How bi…",
+      "type": "live_music",
+      "source_url": "https://www.hurleysirishpub.com/",
+      "confidence": "high"
+    },
+    {
+      "snippet": "…s Hurley's? We have multiple floors and bars. In one room you’ll find a band (or sometimes two), in other rooms find lots of quiet corners to chat,…",
+      "type": "live_music",
+      "source_url": "https://www.hurleysirishpub.com/",
+      "confidence": "medium"
+    },
+    {
+      "snippet": "…e in without reservation, got a beautiful place to sit. The service was 10/10. The prices were reasonable. And the drinks and snacks were good as wel…",
+      "type": "hours_change",
+      "source_url": "https://www.hurleysirishpub.com/",
+      "confidence": "low"
+    },
+    {
+      "snippet": "…e world. See our drink list for details! When are you open? We are open 11am – 3am 7 days a week. We like to keep it simple. Do you serve food? Yes!…",
+      "type": "hours_change",
+      "source_url": "https://www.hurleysirishpub.com/",
+      "confidence": "low"
+    },
+    {
+      "snippet": "…. See our drink list for details! When are you open? We are open 11am – 3am 7 days a week. We like to keep it simple. Do you serve food? Yes! Wheth…",
+      "type": "hours_change",
+      "source_url": "https://www.hurleysirishpub.com/",
+      "confidence": "low"
+    },
+    {
+      "snippet": "…tch our biweekly specials before they run out, we’re here for you, from 11 am to 11 pm everyday. Which nights do you have live music? We have live mu…",
+      "type": "hours_change",
+      "source_url": "https://www.hurleysirishpub.com/",
+      "confidence": "low"
+    },
+    {
+      "snippet": "…iweekly specials before they run out, we’re here for you, from 11 am to 11 pm everyday. Which nights do you have live music? We have live music every…",
+      "type": "hours_change",
+      "source_url": "https://www.hurleysirishpub.com/",
+      "confidence": "low"
+    },
+    {
+      "snippet": "…hts do you have live music? We have live music every night we are open, 7/7. See above about keeping it simple! How big is Hurley's? We have multip…",
+      "type": "hours_change",
+      "source_url": "https://www.hurleysirishpub.com/",
+      "confidence": "low"
+    },
+    {
+      "snippet": "…n with their parents or guardian are allowed on the front terrace until 8:00. Where are you located? We are located on 1225 Crescent St, Montreal, i…",
+      "type": "hours_change",
+      "source_url": "https://www.hurleysirishpub.com/",
+      "confidence": "low"
+    }
+  ],
+  "content_hash": "8aaa80020b190f5db318a23f7d5542e23954207d389dd4f5dc3fe90d4cb6c45e",
+  "last_seen": "2026-08-08T01:20:00Z",
+  "http_status": {
+    "https://www.hurleysirishpub.com/": 200
+  },
+  "source_urls": {
+    "source_url": "https://www.hurleysirishpub.com/",
+    "menu_source_url": "https://www.hurleysirishpub.com/"
+  }
+}

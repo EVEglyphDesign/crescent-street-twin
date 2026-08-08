@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="250" viewBox="0 0 620 250" role="img" aria-labelledby="title desc">
+  <title id="title">The Crescent Street Twin</title>
+  <desc id="desc">Compact two-line Inter wordmark in white, with Twin in orange, on a transparent background.</desc>
+  <style>@font-face{font-family:Inter;src:url('Inter.ttf') format('truetype');} text{font-family:Inter,Arial,sans-serif;font-weight:600;letter-spacing:-1.6px;}</style>
+  <text x="40" y="93" font-size="62" fill="#ffffff">The Crescent</text>
+  <text x="40" y="182" font-size="78" fill="#ffffff">Street</text>
+  <text x="279" y="182" font-size="78" fill="#e87722">Twin</text>
+</svg>

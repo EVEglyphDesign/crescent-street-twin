@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-08-08T01:20:00Z",
+  "slug": "ziggys",
+  "name": "Ziggy's Pub",
+  "address": "1470 Rue Crescent, Montréal, QC H3G 2B6",
+  "status": "unchanged",
+  "signals": [
+    {
+      "snippet": "…Canada H3G 2B6 info@ziggyspub.ca 514-285-8855 Heures / Hours Open today 01:00 p.m. – 03:00 a.m. Get directions Social Copyright © 2026 Ziggy's Pub we…",
+      "type": "hours_change",
+      "source_url": "https://ziggyspub.ca/",
+      "confidence": "low"
+    },
+    {
+      "snippet": "…6 info@ziggyspub.ca 514-285-8855 Heures / Hours Open today 01:00 p.m. – 03:00 a.m. Get directions Social Copyright © 2026 Ziggy's Pub website - All R…",
+      "type": "hours_change",
+      "source_url": "https://ziggyspub.ca/",
+      "confidence": "low"
+    }
+  ],
+  "content_hash": "f53eff9575df5df1e39362d23a22ca1a91d9ba938a78710ef2273e98dfaec3e3",
+  "last_seen": "2026-08-08T01:20:00Z",
+  "http_status": {
+    "https://ziggyspub.ca/": 200
+  },
+  "source_urls": {
+    "source_url": "https://ziggyspub.ca/",
+    "menu_source_url": "https://ziggyspub.ca/"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-08-08T01:20:00Z",
+  "slug": "brutopia",
+  "name": "Brutopia",
+  "address": "1219 Rue Crescent, Montréal, QC H3G 2B1",
+  "status": "robots_disallowed",
+  "signals": [],
+  "content_hash": null,
+  "last_seen": null,
+  "http_status": {
+    "https://www.brutopia.net/": null,
+    "https://www.brutopia.net/menu": null
+  },
+  "source_urls": {
+    "source_url": "https://www.brutopia.net/",
+    "menu_source_url": "https://www.brutopia.net/menu"
+  },
+  "robots_disallowed_urls": [
+    "https://www.brutopia.net/",
+    "https://www.brutopia.net/menu"
+  ]
+}

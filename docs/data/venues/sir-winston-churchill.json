@@ -1,0 +1,61 @@
+{
+ "name": "Sir Winston Churchill Pub Complexe",
+ "address": "1455-1459 Rue Crescent, Montréal, QC H3G 2B2",
+ "blurb_en": "Crescent Street pillar since 1967; pub, Winnie's bar-restaurant, DJ lounge.",
+ "blurb_fr": "Pilier de la rue Crescent depuis 1967; pub, bar-resto Winnie's, lounge DJ.",
+ "known_for": "Sports pub, daily happy hour, upstairs DJ lounge (Karina's), terrace",
+ "hours": "Every day 11:30–03:00; Winnie's Happy Hour daily 17:00–19:00",
+ "source_url": "https://www.swcpc.com/",
+ "menu": [
+  {
+   "name": "French Onion Soup",
+   "price": "9.95 $",
+   "section": "Bouchées / Bites",
+   "section_fr": "Bouchées",
+   "section_en": "Bites"
+  },
+  {
+   "name": "Chicken Wings (10)",
+   "price": "20.95 $",
+   "section": "Bouchées / Bites",
+   "section_fr": "Bouchées",
+   "section_en": "Bites"
+  },
+  {
+   "name": "New York Striploin (10oz)",
+   "price": "34.95 $",
+   "section": "Plats / Mains",
+   "section_fr": "Plats",
+   "section_en": "Mains"
+  },
+  {
+   "name": "Fish & Chips",
+   "price": "24.95 $",
+   "section": "Plats / Mains",
+   "section_fr": "Plats",
+   "section_en": "Mains"
+  },
+  {
+   "name": "Poutine",
+   "price": "18.95 $",
+   "section": "Bouchées / Bites",
+   "section_fr": "Bouchées",
+   "section_en": "Bites"
+  }
+ ],
+ "menu_source": "published",
+ "menu_source_url": "https://www.swcpc.com/food-menu",
+ "doordash_url": null,
+ "ubereats_url": null,
+ "order_note_en": "Dine-in only — no delivery platform found",
+ "order_note_fr": "Sur place seulement — aucune plateforme de livraison trouvée",
+ "slug": "sir-winston-churchill",
+ "photo": "pub_interior_bar_stools.jpg",
+ "gallery": [
+  "downtown_montreal_night_art.jpg",
+  "crescent_street_rowhouses.jpg"
+ ],
+ "known_for_fr": "Pub sportif, 5 à 7 quotidien, lounge DJ à l'étage (Karina's), terrasse",
+ "hours_fr": "Tous les jours 11 h 30 – 3 h; 5 à 7 chez Winnie's de 17 h à 19 h",
+ "anchor": false
+}

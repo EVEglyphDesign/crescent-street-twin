@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">The Crescent Street Twin app mark</title>
+  <desc id="desc">A white crescent facing an orange mirrored crescent on a near-black field.</desc>
+  <rect width="512" height="512" fill="#0a0a0a"/>
+  <!-- Two deliberately simple, mirrored crescent forms. -->
+  <path fill="#ffffff" d="M343 83.93 A176 176 0 1 0 343 428.07 A176 176 0 0 1 343 83.93Z"/>
+  <path fill="#e87722" d="M169 83.93 A176 176 0 1 1 169 428.07 A176 176 0 0 0 169 83.93Z"/>
+</svg>

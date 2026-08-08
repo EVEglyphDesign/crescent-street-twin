@@ -1,0 +1,33 @@
+{
+ "name": "Ziggy's Pub",
+ "address": "1470 Rue Crescent, Montréal, QC H3G 2B6",
+ "blurb_en": "No-frills Crescent Street watering hole focused on drinks and conversation.",
+ "blurb_fr": "Bar sans prétention sur Crescent, axé sur les verres et la conversation.",
+ "known_for": "Casual sports bar, late-night drinks",
+ "hours": "Mon–Fri 14:00–03:00 (some sources: 13:00–03:00), Sat–Sun from ~12:00–03:00",
+ "source_url": "https://ziggyspub.ca/",
+ "menu": [
+  {
+   "name": "Bar snacks / pub fare",
+   "price": null,
+   "section": "Bouchées / Bites",
+   "section_fr": "Bouchées",
+   "section_en": "Bites"
+  }
+ ],
+ "menu_source": "not published",
+ "menu_source_url": "https://ziggyspub.ca/",
+ "doordash_url": null,
+ "ubereats_url": null,
+ "order_note_en": "Dine-in only — a DoorDash \"Ziggy's\" listing exists but could not be confirmed as this Montreal location",
+ "order_note_fr": "Sur place seulement — une fiche DoorDash « Ziggy's » existe mais n'a pu être confirmée comme celle de Montréal",
+ "slug": "ziggys",
+ "photo": "beer_tap_closeup.jpg",
+ "gallery": [
+  "crescent_street_looking_down.jpg",
+  "bar_interior_brick_taps.jpg"
+ ],
+ "known_for_fr": "Bar sportif décontracté, verres de fin de soirée",
+ "hours_fr": "Lun–ven 14 h – 3 h (13 h – 3 h selon certaines sources), sam–dim dès ~12 h – 3 h",
+ "anchor": false
+}

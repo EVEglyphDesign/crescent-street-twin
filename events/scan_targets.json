@@ -1,0 +1,146 @@
+[
+  {
+    "url": "https://donnees.montreal.ca/dataset/6a4cbf2c-c9b7-413a-86b1-e8f7081e2578/resource/6decf611-6f11-4f34-bb36-324d804c9bad/download/evenements.csv",
+    "source_name": "Ville de Montréal — Événements publics (open data CSV)",
+    "feed_type": "json_api",
+    "suggested_poll_frequency": "daily",
+    "robots_status": "allowed (download URL not covered by the /api/ or /dataset/*/history disallow rules; confirmed HTTP 200 with standard user agent)",
+    "what_to_extract": "Filter rows where arrondissement == 'Ville-Marie'; check titre, description, date_debut, date_fin, adresse_principale for 'Crescent' or nearby cross-streets (Ste-Catherine, Sherbrooke, de Maisonneuve, Peel). This is a proxy — Crescent-specific events rarely appear by name."
+  },
+  {
+    "url": "https://donnees.montreal.ca/api/3/action/package_show?id=evenements-publics",
+    "source_name": "Ville de Montréal — CKAN package_show API (metadata + resource URLs for the events dataset)",
+    "feed_type": "json_api",
+    "suggested_poll_frequency": "weekly (metadata rarely changes; poll to catch a new resource ID before switching the CSV URL above)",
+    "robots_status": "caution — robots.txt disallows /api/ generally; returned HTTP 200 in manual testing with a standard user agent, but a strict scanner should treat this endpoint as against the published robots directive and prefer the direct CSV/GeoJSON download URLs instead",
+    "what_to_extract": "Current resource download URLs (CSV/GeoJSON/SHP) and dataset last-modified metadata, so the CSV target above can be kept pointed at a live URL."
+  },
+  {
+    "url": "https://montrealjazzfest.com/sitemap/events.xml",
+    "source_name": "Festival International de Jazz de Montréal — events sitemap",
+    "feed_type": "rss",
+    "suggested_poll_frequency": "daily during announcement season (Jan–Jun), monthly otherwise",
+    "robots_status": "allowed for generic user agents (explicitly disallows Bingbot only)",
+    "what_to_extract": "New or updated event URLs; fetch each URL for date, venue, and whether it falls within the downtown/Quartier des Spectacles footprint."
+  },
+  {
+    "url": "https://francosmontreal.com/sitemap/events.xml",
+    "source_name": "Francos de Montréal — events sitemap",
+    "feed_type": "rss",
+    "suggested_poll_frequency": "daily during announcement season (Feb–Jun), monthly otherwise",
+    "robots_status": "allowed for generic user agents (explicitly disallows Bingbot only)",
+    "what_to_extract": "New or updated event URLs, especially any Bell Centre pre-opening shows near Crescent."
+  },
+  {
+    "url": "https://osheaga.com/sitemap/events.xml",
+    "source_name": "Osheaga Music and Arts Festival — events sitemap",
+    "feed_type": "rss",
+    "suggested_poll_frequency": "daily during announcement season (Feb–Jul), monthly otherwise",
+    "robots_status": "allowed for generic user agents (explicitly disallows Bingbot only)",
+    "what_to_extract": "Lineup/date confirmations; note Parc Jean-Drapeau is not downtown but drives post-festival downtown nightlife."
+  },
+  {
+    "url": "https://montrealenlumiere.com/sitemap/events.xml",
+    "source_name": "Montréal en Lumière / Nuit Blanche — events sitemap",
+    "feed_type": "rss",
+    "suggested_poll_frequency": "weekly Oct–Feb (announcement window for the Feb/Mar edition), monthly otherwise",
+    "robots_status": "allowed for generic user agents (explicitly disallows Bingbot only)",
+    "what_to_extract": "Next Nuit Blanche edition date once announced; do not display a projected date until this feed (or the main site) confirms it."
+  },
+  {
+    "url": "https://fiertemontreal.com/sitemap.xml",
+    "source_name": "Fierté Montréal — full site sitemap",
+    "feed_type": "rss",
+    "suggested_poll_frequency": "weekly Apr–Aug, monthly otherwise",
+    "robots_status": "allowed (Allow: / for all user agents)",
+    "what_to_extract": "Parade date/route confirmation and any new Village Hub or Olympic Esplanade programming pages."
+  },
+  {
+    "url": "https://www.mtl.org/sitemap.xml",
+    "source_name": "Tourisme Montréal (mtl.org) — full site sitemap",
+    "feed_type": "rss",
+    "suggested_poll_frequency": "weekly",
+    "robots_status": "allowed (broad Allow: /, only search/api/styleguide paths disallowed)",
+    "what_to_extract": "New or updated festival/event feature pages; look for 'Crescent' or 'downtown' keyword matches in new URLs."
+  },
+  {
+    "url": "https://www.nhl.com/sitemap/sitemap-index.xml",
+    "source_name": "NHL.com — sitemap index (includes Canadiens schedule pages)",
+    "feed_type": "rss",
+    "suggested_poll_frequency": "weekly during the season (Oct–Jun)",
+    "robots_status": "allowed (broad Allow: /, only asset/search paths disallowed)",
+    "what_to_extract": "Confirm Bell Centre home-game dates/times; cross-check against https://www.nhl.com/canadiens/schedule directly for the human-readable table."
+  },
+  {
+    "url": "https://centrebell.ca/sitemap.xml",
+    "source_name": "Centre Bell (Bell Centre) — site sitemap",
+    "feed_type": "rss",
+    "suggested_poll_frequency": "weekly",
+    "robots_status": "allowed for generic user agents (explicitly disallows Bingbot only)",
+    "what_to_extract": "New concert/event announcements at the arena a few blocks from Crescent."
+  },
+  {
+    "url": "https://www.brutopia.net/",
+    "source_name": "Brutopia — homepage entertainment calendar",
+    "feed_type": "html",
+    "suggested_poll_frequency": "weekly",
+    "robots_status": "allowed — robots.txt explicitly sets Content-Signal: ai-input=yes, ai-train=yes, search=yes",
+    "what_to_extract": "Day-by-day table of performer/event names for the current and next few weeks; confirm the Wed–Sat 22:00 live-band pattern, Sunday open-mic host, and Monday trivia are still running as named fixtures."
+  },
+  {
+    "url": "https://www.brutopia.net/sitemap.xml",
+    "source_name": "Brutopia — XML sitemap",
+    "feed_type": "rss",
+    "suggested_poll_frequency": "weekly",
+    "robots_status": "allowed",
+    "what_to_extract": "New pages (e.g. a dedicated events/live-music page if one is published in the future)."
+  },
+  {
+    "url": "https://www.crescentmontreal.com/evenements-events",
+    "source_name": "Crescent Street Merchants Association — Événements/Events page",
+    "feed_type": "html",
+    "suggested_poll_frequency": "weekly (content observed to update infrequently, so weekly polling is sufficient to catch changes without wasted requests)",
+    "robots_status": "allowed (robots.txt permits / broadly; blocks only ad-bot admin paths and PetalBot)",
+    "what_to_extract": "Any announcement of street pedestrianization, closures, or merchant-run events; compare content hash against the previous poll since updates are infrequent."
+  },
+  {
+    "url": "https://www.crescentmontreal.com/sitemap.xml",
+    "source_name": "Crescent Street Merchants Association — XML sitemap",
+    "feed_type": "rss",
+    "suggested_poll_frequency": "weekly",
+    "robots_status": "allowed",
+    "what_to_extract": "New or changed pages on the merchants' association site."
+  },
+  {
+    "url": "https://www.hurleysirishpub.com/",
+    "source_name": "Hurley's Irish Pub — homepage",
+    "feed_type": "html",
+    "suggested_poll_frequency": "monthly (content is static/claim-based, not a calendar; low value polling more often)",
+    "robots_status": "allowed by default — robots.txt request returns a generic 404 page rather than a real robots file, which is treated as no explicit restriction",
+    "what_to_extract": "Any future publication of a specific nightly showtime, band roster, or working /live-music subpage (the one found at compile time returned an error)."
+  },
+  {
+    "url": "https://www.swcpc.com/",
+    "source_name": "Sir Winston Churchill Pub Complexe — homepage",
+    "feed_type": "html",
+    "suggested_poll_frequency": "monthly",
+    "robots_status": "allowed by default — robots.txt request returned an empty body via a redirect, with no disallow rules found",
+    "what_to_extract": "Confirm daily Happy Hour (17:00–19:00) still stated; watch for any future day/time specificity added to the DJ-night or comedy-show mentions."
+  },
+  {
+    "url": "https://ziggyspub.ca/",
+    "source_name": "Ziggy's Pub — homepage",
+    "feed_type": "html",
+    "suggested_poll_frequency": "monthly",
+    "robots_status": "allowed (robots.txt disallows only /404)",
+    "what_to_extract": "Watch for any future publication of recurring programming; currently only hours and address are published."
+  },
+  {
+    "url": "https://www.wgmtl.com/",
+    "source_name": "Wienstein & Gavino's — homepage",
+    "feed_type": "html",
+    "suggested_poll_frequency": "monthly",
+    "robots_status": "allowed (Wix default robots.txt allows / broadly, blocks only technical paths and PetalBot)",
+    "what_to_extract": "Watch for any future publication of recurring programming; currently only hours and menu are published."
+  }
+]

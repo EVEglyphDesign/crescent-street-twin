@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-08-08T01:20:00Z",
+  "slug": "wienstein-gavinos",
+  "name": "Wienstein & Gavino's",
+  "address": "1434 Rue Crescent, Montréal, QC H3G 2B6",
+  "status": "unchanged",
+  "signals": [
+    {
+      "snippet": "…C H3G 2B6 CONTACT (514) 288-2231 info@wgmtl.com OPENING HOURS Mon - Sun 11:00 am – 2:00 am Kitchen 11:00 am – 12:00 am CONTACT FORMS GROUPS CAREERS E…",
+      "type": "hours_change",
+      "source_url": "https://www.wgmtl.com/",
+      "confidence": "low"
+    },
+    {
+      "snippet": "…ONTACT (514) 288-2231 info@wgmtl.com OPENING HOURS Mon - Sun 11:00 am – 2:00 am Kitchen 11:00 am – 12:00 am CONTACT FORMS GROUPS CAREERS EVENTS GIFT…",
+      "type": "hours_change",
+      "source_url": "https://www.wgmtl.com/",
+      "confidence": "low"
+    },
+    {
+      "snippet": "…-2231 info@wgmtl.com OPENING HOURS Mon - Sun 11:00 am – 2:00 am Kitchen 11:00 am – 12:00 am CONTACT FORMS GROUPS CAREERS EVENTS GIFT CARDS Have quest…",
+      "type": "hours_change",
+      "source_url": "https://www.wgmtl.com/",
+      "confidence": "low"
+    },
+    {
+      "snippet": "…wgmtl.com OPENING HOURS Mon - Sun 11:00 am – 2:00 am Kitchen 11:00 am – 12:00 am CONTACT FORMS GROUPS CAREERS EVENTS GIFT CARDS Have questions about…",
+      "type": "hours_change",
+      "source_url": "https://www.wgmtl.com/",
+      "confidence": "low"
+    }
+  ],
+  "content_hash": "0556287e9cb7552658215f098fd0d55d2f6afdb0dd780a7f49b2a58d0e6e688a",
+  "last_seen": "2026-08-08T01:20:00Z",
+  "http_status": {
+    "https://www.wgmtl.com/": 200,
+    "https://find-foodie.com/pdf/6312f2d60a2f25d9f6dbbeb0b953b42f.pdf": 200
+  },
+  "source_urls": {
+    "source_url": "https://www.wgmtl.com/",
+    "menu_source_url": "https://find-foodie.com/pdf/6312f2d60a2f25d9f6dbbeb0b953b42f.pdf"
+  }
+}

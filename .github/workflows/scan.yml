@@ -1,0 +1,56 @@
+name: Nightly Crescent Street venue scan
+
+on:
+  schedule:
+    # 08:10 UTC is 04:10 America/Toronto while Toronto observes EDT.
+    - cron: "10 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install scanner dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+
+      - name: Read publicly published venue updates
+        id: venue_scan
+        continue-on-error: true
+        run: python scan/scan_venues.py --out-root .
+
+      - name: Commit updated digest and append-only log
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -f docs/data/tonight.json ] || [ ! -f docs/data/scan_log.jsonl ]; then
+            echo "Scanner did not produce aggregate output; nothing to commit."
+            exit 0
+          fi
+          git add -- docs/data/tonight.json docs/data/scan_log.jsonl
+          find venues -type f \( -path '*/scan/latest.json' -o -path '*/scan/history.jsonl' \) -print0 | xargs -0 -r git add --
+          if git diff --cached --quiet; then
+            echo "No scan output changes to commit."
+          else
+            git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "chore: update nightly venue digest"
+            git push
+          fi
+
+      - name: Upload append-only scan log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: venue-scan-log-${{ github.run_id }}
+          path: docs/data/scan_log.jsonl
+          if-no-files-found: warn

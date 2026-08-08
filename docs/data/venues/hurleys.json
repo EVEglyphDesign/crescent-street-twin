@@ -1,0 +1,54 @@
+{
+ "name": "Hurley's Irish Pub",
+ "address": "1225 Rue Crescent, Montréal, QC H3G 2B1",
+ "blurb_en": "Flagship Irish pub, 3 floors, live music every night of the week.",
+ "blurb_fr": "Pub irlandais phare, 3 étages, musique live tous les soirs.",
+ "known_for": "Irish pub, live music (7 nights/week), sports room",
+ "hours": "Every day 11:00–03:00 (kitchen 11:00–23:00)",
+ "source_url": "https://www.hurleysirishpub.com/",
+ "menu": [
+  {
+   "name": "Beef Stew",
+   "price": null,
+   "section": "Plats / Mains",
+   "section_fr": "Plats",
+   "section_en": "Mains"
+  },
+  {
+   "name": "French Onion Soup",
+   "price": null,
+   "section": "Bouchées / Bites",
+   "section_fr": "Bouchées",
+   "section_en": "Bites"
+  },
+  {
+   "name": "Fish and Chips",
+   "price": null,
+   "section": "Plats / Mains",
+   "section_fr": "Plats",
+   "section_en": "Mains"
+  },
+  {
+   "name": "Guinness (pint)",
+   "price": null,
+   "section": "Bière / Beer",
+   "section_fr": "Bière",
+   "section_en": "Beer"
+  }
+ ],
+ "menu_source": "not published",
+ "menu_source_url": "https://www.hurleysirishpub.com/",
+ "doordash_url": null,
+ "ubereats_url": null,
+ "order_note_en": "Dine-in only — no delivery platform found",
+ "order_note_fr": "Sur place seulement — aucune plateforme de livraison trouvée",
+ "slug": "hurleys",
+ "photo": "bar_interior_brick_taps.jpg",
+ "gallery": [
+  "live_music_stage_guitarist.jpg",
+  "crescent_street_view_wide.jpg"
+ ],
+ "known_for_fr": "Pub irlandais, musique live (7 soirs/semaine), salle des sports",
+ "hours_fr": "Tous les jours 11 h – 3 h (cuisine 11 h – 23 h)",
+ "anchor": false
+}

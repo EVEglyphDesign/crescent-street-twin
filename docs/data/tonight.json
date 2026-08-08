@@ -1,0 +1,367 @@
+{
+  "generated_at": "2026-08-08T01:20:00Z",
+  "venue_count": 6,
+  "new_count": 0,
+  "venues": [
+    {
+      "slug": "hurleys",
+      "name": "Hurley's Irish Pub",
+      "address": "1225 Rue Crescent, Montréal, QC H3G 2B1",
+      "status": "unchanged",
+      "signals": [
+        {
+          "snippet": "…and chips, grab a quick bite before a Habs game, or catch our biweekly specials before they run out, we’re here for you, from 11 am to 11 pm everyday.…",
+          "type": "special",
+          "source_url": "https://www.hurleysirishpub.com/",
+          "confidence": "high"
+        },
+        {
+          "snippet": "…re Drinks on tap or full bar Bookings great group outings Entertainment live music 7 days a week Sports sports room upstairs Baptiste Gilistro There’s a r…",
+          "type": "live_music",
+          "source_url": "https://www.hurleysirishpub.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…re here for you, from 11 am to 11 pm everyday. Which nights do you have live music? We have live music every night we are open, 7/7. See above about keepi…",
+          "type": "live_music",
+          "source_url": "https://www.hurleysirishpub.com/",
+          "confidence": "high"
+        },
+        {
+          "snippet": "…m 11 am to 11 pm everyday. Which nights do you have live music? We have live music every night we are open, 7/7. See above about keeping it simple! How bi…",
+          "type": "live_music",
+          "source_url": "https://www.hurleysirishpub.com/",
+          "confidence": "high"
+        },
+        {
+          "snippet": "…s Hurley's? We have multiple floors and bars. In one room you’ll find a band (or sometimes two), in other rooms find lots of quiet corners to chat,…",
+          "type": "live_music",
+          "source_url": "https://www.hurleysirishpub.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…e in without reservation, got a beautiful place to sit. The service was 10/10. The prices were reasonable. And the drinks and snacks were good as wel…",
+          "type": "hours_change",
+          "source_url": "https://www.hurleysirishpub.com/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…e world. See our drink list for details! When are you open? We are open 11am – 3am 7 days a week. We like to keep it simple. Do you serve food? Yes!…",
+          "type": "hours_change",
+          "source_url": "https://www.hurleysirishpub.com/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…. See our drink list for details! When are you open? We are open 11am – 3am 7 days a week. We like to keep it simple. Do you serve food? Yes! Wheth…",
+          "type": "hours_change",
+          "source_url": "https://www.hurleysirishpub.com/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…tch our biweekly specials before they run out, we’re here for you, from 11 am to 11 pm everyday. Which nights do you have live music? We have live mu…",
+          "type": "hours_change",
+          "source_url": "https://www.hurleysirishpub.com/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…iweekly specials before they run out, we’re here for you, from 11 am to 11 pm everyday. Which nights do you have live music? We have live music every…",
+          "type": "hours_change",
+          "source_url": "https://www.hurleysirishpub.com/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…hts do you have live music? We have live music every night we are open, 7/7. See above about keeping it simple! How big is Hurley's? We have multip…",
+          "type": "hours_change",
+          "source_url": "https://www.hurleysirishpub.com/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…n with their parents or guardian are allowed on the front terrace until 8:00. Where are you located? We are located on 1225 Crescent St, Montreal, i…",
+          "type": "hours_change",
+          "source_url": "https://www.hurleysirishpub.com/",
+          "confidence": "low"
+        }
+      ],
+      "last_seen": "2026-08-08T01:20:00Z",
+      "source_urls": {
+        "source_url": "https://www.hurleysirishpub.com/",
+        "menu_source_url": "https://www.hurleysirishpub.com/"
+      },
+      "content_hash": "8aaa80020b190f5db318a23f7d5542e23954207d389dd4f5dc3fe90d4cb6c45e",
+      "http_status": {
+        "https://www.hurleysirishpub.com/": 200
+      }
+    },
+    {
+      "slug": "sir-winston-churchill",
+      "name": "Sir Winston Churchill Pub Complexe",
+      "address": "1455-1459 Rue Crescent, Montréal, QC H3G 2B2",
+      "status": "unchanged",
+      "signals": [
+        {
+          "snippet": "…x is sure to please everyone at your table. Remember that at Winnie’s , Happy Hour is every day from 5 to 7 PM; who knows who you might meet when you leas…",
+          "type": "special",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "high"
+        },
+        {
+          "snippet": "…ur table. Remember that at Winnie’s , Happy Hour is every day from 5 to 7 PM; who knows who you might meet when you least expect it. Explore Our Men…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…e 514 288-3814 Email info@swcpc.com Opening Hours Winnie’s – Main Floor Monday, Tuesday & Wednesday – 12pm to 1am Thursday, Friday & Saturday – 12pm t…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…8-3814 Email info@swcpc.com Opening Hours Winnie’s – Main Floor Monday, Tuesday & Wednesday – 12pm to 1am Thursday, Friday & Saturday – 12pm to 3am Sun…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…il info@swcpc.com Opening Hours Winnie’s – Main Floor Monday, Tuesday & Wednesday – 12pm to 1am Thursday, Friday & Saturday – 12pm to 3am Sunday – 12pm t…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…c.com Opening Hours Winnie’s – Main Floor Monday, Tuesday & Wednesday – 12pm to 1am Thursday, Friday & Saturday – 12pm to 3am Sunday – 12pm to 1am T…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…ening Hours Winnie’s – Main Floor Monday, Tuesday & Wednesday – 12pm to 1am Thursday, Friday & Saturday – 12pm to 3am Sunday – 12pm to 1am The Pub…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…g Hours Winnie’s – Main Floor Monday, Tuesday & Wednesday – 12pm to 1am Thursday, Friday & Saturday – 12pm to 3am Sunday – 12pm to 1am The Pub – Ground…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…nnie’s – Main Floor Monday, Tuesday & Wednesday – 12pm to 1am Thursday, Friday & Saturday – 12pm to 3am Sunday – 12pm to 1am The Pub – Ground Floor Th…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…Main Floor Monday, Tuesday & Wednesday – 12pm to 1am Thursday, Friday & Saturday – 12pm to 3am Sunday – 12pm to 1am The Pub – Ground Floor Thursday, Fri…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…Monday, Tuesday & Wednesday – 12pm to 1am Thursday, Friday & Saturday – 12pm to 3am Sunday – 12pm to 1am The Pub – Ground Floor Thursday, Friday & S…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…Tuesday & Wednesday – 12pm to 1am Thursday, Friday & Saturday – 12pm to 3am Sunday – 12pm to 1am The Pub – Ground Floor Thursday, Friday & Saturday…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…day & Wednesday – 12pm to 1am Thursday, Friday & Saturday – 12pm to 3am Sunday – 12pm to 1am The Pub – Ground Floor Thursday, Friday & Saturday – 8pm…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…nesday – 12pm to 1am Thursday, Friday & Saturday – 12pm to 3am Sunday – 12pm to 1am The Pub – Ground Floor Thursday, Friday & Saturday – 8pm to 3am…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…12pm to 1am Thursday, Friday & Saturday – 12pm to 3am Sunday – 12pm to 1am The Pub – Ground Floor Thursday, Friday & Saturday – 8pm to 3am © 2026…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…ay & Saturday – 12pm to 3am Sunday – 12pm to 1am The Pub – Ground Floor Thursday, Friday & Saturday – 8pm to 3am © 2026 Sir Winston Churchill Pub Comple…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…day – 12pm to 3am Sunday – 12pm to 1am The Pub – Ground Floor Thursday, Friday & Saturday – 8pm to 3am © 2026 Sir Winston Churchill Pub Complexe / All…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…m to 3am Sunday – 12pm to 1am The Pub – Ground Floor Thursday, Friday & Saturday – 8pm to 3am © 2026 Sir Winston Churchill Pub Complexe / All rights res…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…nday – 12pm to 1am The Pub – Ground Floor Thursday, Friday & Saturday – 8pm to 3am © 2026 Sir Winston Churchill Pub Complexe / All rights reserved…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…12pm to 1am The Pub – Ground Floor Thursday, Friday & Saturday – 8pm to 3am © 2026 Sir Winston Churchill Pub Complexe / All rights reserved / Site…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "medium"
+        },
+        {
+          "snippet": "…of people 1 Person 2 People 3 People 4 People 5 People 6 and more Time 10:00 am 11:00 am 12:00 am 1:00 pm 2:00 pm 3:00 pm 4:00 pm 5:00 pm 6:00 pm 7:…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…e 1 Person 2 People 3 People 4 People 5 People 6 and more Time 10:00 am 11:00 am 12:00 am 1:00 pm 2:00 pm 3:00 pm 4:00 pm 5:00 pm 6:00 pm 7:00 pm 8:0…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…n 2 People 3 People 4 People 5 People 6 and more Time 10:00 am 11:00 am 12:00 am 1:00 pm 2:00 pm 3:00 pm 4:00 pm 5:00 pm 6:00 pm 7:00 pm 8:00 pm Plea…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…e 3 People 4 People 5 People 6 and more Time 10:00 am 11:00 am 12:00 am 1:00 pm 2:00 pm 3:00 pm 4:00 pm 5:00 pm 6:00 pm 7:00 pm 8:00 pm Please leave…",
+          "type": "hours_change",
+          "source_url": "https://www.swcpc.com/",
+          "confidence": "low"
+        }
+      ],
+      "last_seen": "2026-08-08T01:20:00Z",
+      "source_urls": {
+        "source_url": "https://www.swcpc.com/",
+        "menu_source_url": "https://www.swcpc.com/food-menu"
+      },
+      "content_hash": "22f948c3b4032ada6bbc312c6c330d0f9a421d4a1fc3b6e97fc9efea1dacca96",
+      "http_status": {
+        "https://www.swcpc.com/": 200,
+        "https://www.swcpc.com/food-menu": 404
+      }
+    },
+    {
+      "slug": "brutopia",
+      "name": "Brutopia",
+      "address": "1219 Rue Crescent, Montréal, QC H3G 2B1",
+      "status": "robots_disallowed",
+      "signals": [],
+      "last_seen": null,
+      "source_urls": {
+        "source_url": "https://www.brutopia.net/",
+        "menu_source_url": "https://www.brutopia.net/menu"
+      },
+      "content_hash": null,
+      "http_status": {
+        "https://www.brutopia.net/": null,
+        "https://www.brutopia.net/menu": null
+      },
+      "robots_disallowed_urls": [
+        "https://www.brutopia.net/",
+        "https://www.brutopia.net/menu"
+      ]
+    },
+    {
+      "slug": "ziggys",
+      "name": "Ziggy's Pub",
+      "address": "1470 Rue Crescent, Montréal, QC H3G 2B6",
+      "status": "unchanged",
+      "signals": [
+        {
+          "snippet": "…Canada H3G 2B6 info@ziggyspub.ca 514-285-8855 Heures / Hours Open today 01:00 p.m. – 03:00 a.m. Get directions Social Copyright © 2026 Ziggy's Pub we…",
+          "type": "hours_change",
+          "source_url": "https://ziggyspub.ca/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…6 info@ziggyspub.ca 514-285-8855 Heures / Hours Open today 01:00 p.m. – 03:00 a.m. Get directions Social Copyright © 2026 Ziggy's Pub website - All R…",
+          "type": "hours_change",
+          "source_url": "https://ziggyspub.ca/",
+          "confidence": "low"
+        }
+      ],
+      "last_seen": "2026-08-08T01:20:00Z",
+      "source_urls": {
+        "source_url": "https://ziggyspub.ca/",
+        "menu_source_url": "https://ziggyspub.ca/"
+      },
+      "content_hash": "f53eff9575df5df1e39362d23a22ca1a91d9ba938a78710ef2273e98dfaec3e3",
+      "http_status": {
+        "https://ziggyspub.ca/": 200
+      }
+    },
+    {
+      "slug": "wienstein-gavinos",
+      "name": "Wienstein & Gavino's",
+      "address": "1434 Rue Crescent, Montréal, QC H3G 2B6",
+      "status": "unchanged",
+      "signals": [
+        {
+          "snippet": "…C H3G 2B6 CONTACT (514) 288-2231 info@wgmtl.com OPENING HOURS Mon - Sun 11:00 am – 2:00 am Kitchen 11:00 am – 12:00 am CONTACT FORMS GROUPS CAREERS E…",
+          "type": "hours_change",
+          "source_url": "https://www.wgmtl.com/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…ONTACT (514) 288-2231 info@wgmtl.com OPENING HOURS Mon - Sun 11:00 am – 2:00 am Kitchen 11:00 am – 12:00 am CONTACT FORMS GROUPS CAREERS EVENTS GIFT…",
+          "type": "hours_change",
+          "source_url": "https://www.wgmtl.com/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…-2231 info@wgmtl.com OPENING HOURS Mon - Sun 11:00 am – 2:00 am Kitchen 11:00 am – 12:00 am CONTACT FORMS GROUPS CAREERS EVENTS GIFT CARDS Have quest…",
+          "type": "hours_change",
+          "source_url": "https://www.wgmtl.com/",
+          "confidence": "low"
+        },
+        {
+          "snippet": "…wgmtl.com OPENING HOURS Mon - Sun 11:00 am – 2:00 am Kitchen 11:00 am – 12:00 am CONTACT FORMS GROUPS CAREERS EVENTS GIFT CARDS Have questions about…",
+          "type": "hours_change",
+          "source_url": "https://www.wgmtl.com/",
+          "confidence": "low"
+        }
+      ],
+      "last_seen": "2026-08-08T01:20:00Z",
+      "source_urls": {
+        "source_url": "https://www.wgmtl.com/",
+        "menu_source_url": "https://find-foodie.com/pdf/6312f2d60a2f25d9f6dbbeb0b953b42f.pdf"
+      },
+      "content_hash": "0556287e9cb7552658215f098fd0d55d2f6afdb0dd780a7f49b2a58d0e6e688a",
+      "http_status": {
+        "https://www.wgmtl.com/": 200,
+        "https://find-foodie.com/pdf/6312f2d60a2f25d9f6dbbeb0b953b42f.pdf": 200
+      }
+    },
+    {
+      "slug": "brass-door",
+      "name": "The Brass Door Pub",
+      "address": "2171 Rue Crescent, Montréal, QC H3G 2C1",
+      "status": "source_unreachable",
+      "signals": [],
+      "last_seen": null,
+      "source_urls": {
+        "source_url": "https://brassdoor.pub/",
+        "menu_source_url": "https://www.ubereats.com/ca/store/brass-door-pub-2171-rue-crescent/CeygJ0tnQXCRcgpwByncVw"
+      },
+      "content_hash": null,
+      "http_status": {
+        "https://brassdoor.pub/": 200,
+        "https://www.ubereats.com/ca/store/brass-door-pub-2171-rue-crescent/CeygJ0tnQXCRcgpwByncVw": 200
+      }
+    }
+  ]
+}
