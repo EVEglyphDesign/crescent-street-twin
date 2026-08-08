@@ -225,8 +225,8 @@ a.card, a.card h2, a.card h3, a.card p { color: var(--fg); }
 .strip .row1 { display: flex; width: 100%; align-items: center; gap: 8px; }
 .strip .lbl { font-size: 11px; font-weight: 800; letter-spacing: 0.12em; text-transform: uppercase; color: var(--acc); }
 .strip .go { margin-left: auto; color: var(--acc); font-weight: 800; font-size: 16px; line-height: 1; }
-.strip .row2 { display: block; margin-top: 3px; font-size: 14px; font-weight: 600; }
-.strip .row3 { display: block; margin-top: 2px; font-size: 12px; color: var(--fg2); }
+.strip .row2 { display: block; width: 100%; flex: 0 0 100%; margin-top: 3px; font-size: 14px; font-weight: 600; }
+.strip .row3 { display: block; width: 100%; flex: 0 0 100%; margin-top: 2px; font-size: 12px; color: var(--fg2); }
 
 /* metrics */
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
@@ -395,3 +395,21 @@ a.card, a.card h2, a.card h3, a.card p { color: var(--fg); }
   border-radius: 4px; padding: 2px 5px; line-height: 1;
 }
 .scanrow .src a { word-break: break-word; }
+
+/* strip rows stack on every width */
+.strip .row2, .strip .row3 { width: 100%; }
+
+/* Phone-width column: the prototype is a mobile app, so cap it and centre it
+   on wider screens instead of stretching images across a desktop window. */
+@media (min-width: 520px) {
+  body { background: #050505; }
+  .appheader, main, #tabbar, #toast { max-width: 460px; margin-left: auto; margin-right: auto; }
+  .appheader { border-left: 1px solid var(--line); border-right: 1px solid var(--line); }
+  main {
+    background: var(--bg);
+    border-left: 1px solid var(--line); border-right: 1px solid var(--line);
+    min-height: calc(100vh - 60px);
+  }
+  #tabbar { left: 50%; right: auto; transform: translateX(-50%); width: 100%;
+    border-left: 1px solid var(--line); border-right: 1px solid var(--line); }
+}

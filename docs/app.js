@@ -203,7 +203,6 @@
     html += '<span class="capt"><h3>' + esc(v.name) + '</h3><p class="addr">' + esc(v.address.replace(", Montréal, QC", " · Montréal")) + "</p></span>";
     html += "</span>";
     html += '<span class="body"><p' + A(v.blurb_en, v.blurb_fr) + ">" + esc(tx(v.blurb_en, v.blurb_fr)) + "</p>";
-    html += '<p class="kf"' + A(v.known_for, v.known_for_fr) + ">" + esc(tx(v.known_for, v.known_for_fr)) + "</p>";
     html += "</span></a>";
     return html;
   }
