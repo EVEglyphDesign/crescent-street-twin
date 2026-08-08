@@ -1,0 +1,141 @@
+{
+  "subject": {
+    "name_en": "The Palace on Rachel Street",
+    "name_fr": "Le Palais des Nains",
+    "address": "961 rue Rachel Est, Le Plateau-Mont-Royal, Montréal, Québec",
+    "open_to_public": "1913-1992",
+    "route": "#/palais"
+  },
+  "imagery_policy": {
+    "no_image_of_subjects": true,
+    "statement": "No photograph of Philippe Nicol, Rose Dufresne-Nicol, their family, or the Palais des Nains is used anywhere in this tribute, because we hold no rights to any such image. None has been generated or invented.",
+    "images_used": [
+      {
+        "file": "crescent_street_rowhouses.jpg",
+        "role": "hero",
+        "illustrative_only": true,
+        "caption_en": "A row of Montréal triplexes, illustrative — not the Palais itself"
+      },
+      {
+        "file": "montreal_skyline_dusk.jpg",
+        "role": "supporting",
+        "illustrative_only": true,
+        "caption_en": "Montréal at dusk — illustrative"
+      },
+      {
+        "file": "crescent_street_looking_down.jpg",
+        "role": "supporting",
+        "illustrative_only": true,
+        "caption_en": "A Montréal street — illustrative"
+      }
+    ]
+  },
+  "sources": {
+    "main": {
+      "name": "The Main — the history of Le Palais des Nains",
+      "url": "https://www.themain.com/articles/palais-des-nains-montreal-history-rachel-street",
+      "covers": "History of the house and of the couple"
+    },
+    "jdm": {
+      "name": "Le Journal de Montréal — « Au Palais des Nains »",
+      "url": "https://www.journaldemontreal.com/2017/01/28/au-palais-des-nains",
+      "covers": "Interior, hours and daily life"
+    },
+    "propos": {
+      "name": "ProposMontréal — l'histoire du Palais des Nains",
+      "url": "https://proposmontreal.com/index.php/lhistoire-du-palais-des-nains/",
+      "covers": "Biography, marriage and the move to Montréal"
+    },
+    "plateau": {
+      "name": "Petite histoire du Plateau — Palais des Nains",
+      "url": "https://blogue.histoireplateau.org/2006/07/04/palais-des-nains/",
+      "covers": "The two addresses on rue Rachel Est"
+    },
+    "mcr": {
+      "name": "Material Culture Review — peer-reviewed study of the Midgets' Palace",
+      "url": "https://journals.lib.unb.ca/index.php/MCR/article/download/18148/19526?inline=1",
+      "covers": "Peer-reviewed study of the attraction and its afterlife",
+      "peer_reviewed": true
+    }
+  },
+  "facts": [
+    {
+      "id": "philippe-birth",
+      "statement": "Philippe Adélard Nicol was born on 27 September 1881 in Saint-Henri-de-Lévis, Québec, the only person in a large family born with dwarfism. His father stood 6 ft 3 in and his mother 5 ft 9 in. He never grew taller than about three feet.",
+      "date": "1881-09-27",
+      "source_urls": [
+        "https://www.themain.com/articles/palais-des-nains-montreal-history-rachel-street",
+        "https://proposmontreal.com/index.php/lhistoire-du-palais-des-nains/"
+      ]
+    },
+    {
+      "id": "philippe-career",
+      "statement": "He performed in vaudeville and with the Barnum & Bailey and Forepaugh & Sells Brothers circuses, and gave himself the stage title Count Philippe Nicol, in the tradition of General Tom Thumb.",
+      "source_urls": [
+        "https://www.themain.com/articles/palais-des-nains-montreal-history-rachel-street",
+        "https://proposmontreal.com/index.php/lhistoire-du-palais-des-nains/"
+      ]
+    },
+    {
+      "id": "meeting-and-marriage",
+      "statement": "In 1906, through Joseph-Octave Champagne — manager of the Québec strongman Louis Cyr — Philippe met Rose Dufresne, born 17 June 1887 in Lowell, Massachusetts, also a little person, a pianist and skilled cook who had made her own way through the circus circuit. They married in Lowell on 21 November 1906. The wedding drew such crowds that businesses and factories closed their doors for the ceremony.",
+      "date": "1906-11-21",
+      "source_urls": [
+        "https://www.themain.com/articles/palais-des-nains-montreal-history-rachel-street",
+        "https://proposmontreal.com/index.php/lhistoire-du-palais-des-nains/"
+      ]
+    },
+    {
+      "id": "first-address",
+      "statement": "In 1913 they left circus life, moved to Montréal and opened their first attraction at 415 rue Rachel Est, now numbered 507a.",
+      "date": "1913",
+      "source_urls": [
+        "https://blogue.histoireplateau.org/2006/07/04/palais-des-nains/",
+        "https://www.journaldemontreal.com/2017/01/28/au-palais-des-nains"
+      ]
+    },
+    {
+      "id": "the-house",
+      "statement": "In 1926, the year their son Philippe Jr. was born, they moved into a purpose-built house at 961 rue Rachel Est. From the street it was a standard Plateau triplex. Inside, every ceiling was lowered and every doorknob, mirror, stair, chair, lamp, picture frame, radio, piano and grandfather clock was built to their scale. Only the entrance hall kept a normal height. Two stone lions guarded the door.",
+      "date": "1926",
+      "source_urls": [
+        "https://www.journaldemontreal.com/2017/01/28/au-palais-des-nains",
+        "https://blogue.histoireplateau.org/2006/07/04/palais-des-nains/"
+      ]
+    },
+    {
+      "id": "daily-life",
+      "statement": "The house was open from 9:00 to 23:00, every day. Rose played piano in the parlour. Visitors of average height had to crouch to see themselves in the mirrors.",
+      "source_urls": [
+        "https://www.journaldemontreal.com/2017/01/28/au-palais-des-nains",
+        "https://blogue.histoireplateau.org/2006/07/04/palais-des-nains/"
+      ]
+    },
+    {
+      "id": "deaths-and-afterlife",
+      "statement": "Philippe died on 26 May 1940 and Rose died on 24 October 1964. After Rose's death, Huguette Rioux-Bastien, also a little person, ran a doll-repair workshop in the house and showed visitors the apartment from 1972 until it closed for good in 1992. The building has since been renovated beyond recognition; nothing of the interior remains.",
+      "dates": {
+        "philippe_died": "1940-05-26",
+        "rose_died": "1964-10-24",
+        "rioux_bastien_from": "1972",
+        "closed": "1992"
+      },
+      "source_urls": [
+        "https://journals.lib.unb.ca/index.php/MCR/article/download/18148/19526?inline=1",
+        "https://proposmontreal.com/index.php/lhistoire-du-palais-des-nains/"
+      ]
+    }
+  ],
+  "could_not_verify": [
+    "Exact wording, date and first-person attribution of the quoted line about people who are different feeling part of us.",
+    "Admission price and how it changed across the 1926-1992 span.",
+    "Total number of visitors over the life of the attraction.",
+    "Exact ceiling heights, door dimensions or room count of the interior.",
+    "Whether the two stone lions still exist, and where they went after 1992.",
+    "Philippe Jr.'s life beyond his 1926 birth year — his height, whether he lived in the house as an adult, and his dates.",
+    "The legal or ownership arrangement under which Huguette Rioux-Bastien operated in the house from 1972.",
+    "The date and nature of the renovation that erased the interior, and who carried it out.",
+    "The current condition or occupancy of 961 rue Rachel Est.",
+    "Rose Dufresne's family background and the circumstances that brought her onto the circus circuit."
+  ]
+}

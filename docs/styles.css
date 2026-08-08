@@ -343,6 +343,45 @@ a.card, a.card h2, a.card h3, a.card p { color: var(--fg); }
 }
 .note b { color: var(--fg); font-weight: 700; }
 
+/* palais tribute */
+.srcline {
+  font-size: 12px; color: var(--fg2); line-height: 1.45;
+  margin: 8px 0 0; padding-top: 7px; border-top: 1px solid var(--line);
+  word-break: break-word;
+}
+.srcline a { font-weight: 600; }
+.quoteline {
+  margin: 14px 0 0; padding: 10px 0 10px 12px;
+  border-left: 2px solid var(--acc);
+  display: flex; flex-direction: column; gap: 6px;
+}
+.quoteline span { display: block; }
+/* primary line = current language, secondary line = the other one */
+.quoteline .ql-en {
+  font-size: 17px; font-weight: 800; letter-spacing: -0.01em;
+  line-height: 1.3; color: var(--fg); order: 0;
+}
+.quoteline .ql-fr {
+  font-size: 14px; font-style: italic; font-weight: 400;
+  line-height: 1.35; color: var(--fg2); order: 1;
+}
+html[lang="fr"] .quoteline .ql-fr {
+  font-size: 17px; font-weight: 800; font-style: normal;
+  letter-spacing: -0.01em; line-height: 1.3; color: var(--fg); order: 0;
+}
+html[lang="fr"] .quoteline .ql-en {
+  font-size: 14px; font-style: italic; font-weight: 400;
+  letter-spacing: 0; line-height: 1.35; color: var(--fg2); order: 1;
+}
+.palaiscard .cap h2 { font-size: 20px; }
+.palaiscard .cap p { color: #d4d4d4; }
+/* the illustrative photo sits behind text on both surfaces: darken it and
+   deepen the scrim so the orange eyebrow keeps its contrast */
+.palaiscard img, .palaishero img { filter: brightness(0.58) contrast(1.06) saturate(0.62) sepia(0.14); }
+.palaiscard .scrim, .palaishero .scrim {
+  background: linear-gradient(to top, #0a0a0a 0%, rgba(10,10,10,0.78) 52%, rgba(10,10,10,0.40) 100%);
+}
+
 /* footer */
 .screenfoot { padding: 18px var(--gutter) 14px; border-top: 1px solid var(--line); margin-top: 18px; }
 .footnav { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-bottom: 10px; }

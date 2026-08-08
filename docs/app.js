@@ -52,6 +52,7 @@
         '<a href="#/street"' + A("Street density", "Densité de la rue") + ">Street density</a>" +
         '<a href="#/governance"' + A("Governance", "Gouvernance") + ">Governance</a>" +
         '<a href="#/credits"' + A("Credits & sources", "Crédits et sources") + ">Credits &amp; sources</a>" +
+        '<a href="#/palais"' + A("The Palace on Rachel Street", "Le Palais des Nains") + ">The Palace on Rachel Street</a>" +
         '<a href="#/account"' + A("My account", "Mon compte") + ">My account</a>" +
       "</div>" +
       '<p class="copyline"' + A("Wireframe with demo data. Photos credited on the Credits screen.",
@@ -299,6 +300,19 @@
       ">Anonymous counts only, rounded to the nearest ten. No query ever returns a person.</p>";
     h += "</div>";
 
+    h += '<div class="pad" style="padding-top:14px">' +
+      '<a class="card photo palaiscard" href="#/palais" style="display:block">' +
+      IMG("crescent_street_rowhouses.jpg",
+          "A row of Montréal triplexes, illustrative — not the Palais itself",
+          "Une rangée de triplex montréalais, à titre illustratif — pas le Palais lui-même",
+          'style="height:170px;object-position:58% 72%"') +
+      '<span class="scrim"></span>' +
+      '<span class="cap"><p class="eyebrow"' + A("A Montréal tradition", "Une tradition montréalaise") + ">A Montréal tradition</p>" +
+      "<h2" + A("The Palace on Rachel Street", "Le Palais des Nains") + ">The Palace on Rachel Street</h2>" +
+      "<p" + A("Philippe and Rose Nicol built a house to their own measure and set the terms of their own visibility. Read why it is the example we follow.",
+               "Philippe et Rose Nicol ont bâti une maison à leur mesure et fixé eux-mêmes les conditions de leur visibilité. Voici pourquoi c’est l’exemple que nous suivons.") +
+      ">Philippe and Rose Nicol built a house to their own measure.</p></span></a></div>";
+
     h += '<div class="sectionhead"><h2' + A("The anchor", "Le lieu d’ancrage") + ">The anchor</h2>" +
       '<a class="more" href="#/places"' + A("All six →", "Les six →") + ">All six →</a></div>";
     h += '<div class="pad">' + venueCard(brass) + "</div>";
@@ -331,6 +345,154 @@
       IMG(file, en, fr, 'style="height:150px"') + '<span class="scrim"></span>' +
       '<span class="cap"><h2' + A(en, fr) + ">" + esc(tx(en, fr)) + "</h2>" +
       "<p" + A(den, dfr) + ">" + esc(tx(den, dfr)) + "</p></span></a>";
+  }
+
+  /* ---- Palais des Nains tribute ---- */
+  var PALAIS_SRC = {
+    main:   ["https://www.themain.com/articles/palais-des-nains-montreal-history-rachel-street",
+             "The Main — the history of Le Palais des Nains",
+             "The Main — l’histoire du Palais des Nains"],
+    jdm:    ["https://www.journaldemontreal.com/2017/01/28/au-palais-des-nains",
+             "Le Journal de Montréal — « Au Palais des Nains »",
+             "Le Journal de Montréal — « Au Palais des Nains »"],
+    propos: ["https://proposmontreal.com/index.php/lhistoire-du-palais-des-nains/",
+             "ProposMontréal — the history of Le Palais des Nains",
+             "ProposMontréal — l’histoire du Palais des Nains"],
+    plateau:["https://blogue.histoireplateau.org/2006/07/04/palais-des-nains/",
+             "Petite histoire du Plateau — Palais des Nains",
+             "Petite histoire du Plateau — Palais des Nains"],
+    mcr:    ["https://journals.lib.unb.ca/index.php/MCR/article/download/18148/19526?inline=1",
+             "Material Culture Review — peer-reviewed study of the Midgets’ Palace",
+             "Material Culture Review — étude évaluée par les pairs sur le Midgets’ Palace"]
+  };
+  function srcLink(k) {
+    var s = PALAIS_SRC[k];
+    return '<a href="' + esc(s[0]) + '" target="_blank" rel="noopener"' + A(s[1], s[2]) + ">" + esc(tx(s[1], s[2])) + "</a>";
+  }
+  function srcLine(keys) {
+    var out = '<p class="srcline">' + S("Source:", "Source :") + " ";
+    keys.forEach(function (k, i) { out += (i ? " · " : "") + srcLink(k); });
+    return out + "</p>";
+  }
+  function pp(en, fr) { return "<p" + A(en, fr) + ">" + esc(tx(en, fr)) + "</p>"; }
+
+  function scr_palais() {
+    var h = '<div class="photo palaishero">' +
+      IMG("crescent_street_rowhouses.jpg",
+          "A row of Montréal triplexes, illustrative — not the Palais itself",
+          "Une rangée de triplex montréalais, à titre illustratif — pas le Palais lui-même",
+          'style="height:230px;object-position:58% 72%"') +
+      '<span class="scrim"></span><span class="cap">' +
+      '<p class="eyebrow"' + A("A Montréal tradition", "Une tradition montréalaise") + ">A Montréal tradition</p>" +
+      "<h2 style=\"font-size:26px\"" + A("The Palace on Rachel Street", "Le Palais des Nains") + ">The Palace on Rachel Street</h2>" +
+      "<p" + A("961 rue Rachel Est · Le Plateau-Mont-Royal · 1926–1992",
+               "961, rue Rachel Est · Le Plateau-Mont-Royal · 1926-1992") +
+      ">961 rue Rachel Est · Le Plateau-Mont-Royal · 1926–1992</p></span></div>";
+
+    h += '<div class="pad" style="padding-top:10px">';
+    h += back("#/tonight", "Tonight", "Ce soir");
+    h += '<p class="tiny"' + A("Photograph above is illustrative — a Plateau-style triplex row. It is not the Palais des Nains. No photograph of Philippe and Rose Nicol or of their house is shown here, because we hold no rights to one.",
+      "La photographie ci-dessus est illustrative — une rangée de triplex de style Plateau. Ce n’est pas le Palais des Nains. Aucune photographie de Philippe et Rose Nicol ni de leur maison n’est montrée ici, faute d’en détenir les droits.") +
+      ">Photograph above is illustrative.</p>";
+
+    h += pp("From 1913 to 1992 a house on rue Rachel Est was open to the public because the couple who lived in it decided it would be. They built it to their own measure, set the hours, charged the admission and kept the proceeds.",
+            "De 1913 à 1992, une maison de la rue Rachel Est fut ouverte au public parce que le couple qui l’habitait en avait décidé ainsi. Ils l’ont bâtie à leur mesure, fixé les heures, perçu l’entrée et gardé les recettes.");
+
+    h += '<blockquote class="quoteline">' +
+      '<span class="ql-en">“We want people who are different to feel that they are part of us.”</span>' +
+      '<span class="ql-fr">« Nous voulons que les personnes différentes sentent qu’elles font partie de nous. »</span>' +
+      "</blockquote>";
+
+    h += '<h2 style="margin-top:18px"' + A("Philippe and Rose", "Philippe et Rose") + ">Philippe and Rose</h2>";
+    h += '<div class="card cardpad">';
+    h += pp("Philippe Adélard Nicol was born on 27 September 1881 in Saint-Henri-de-Lévis, Québec, the only person in a large family born with dwarfism. His father stood 6 ft 3 in, his mother 5 ft 9 in. He never grew taller than about three feet.",
+            "Philippe Adélard Nicol naît le 27 septembre 1881 à Saint-Henri-de-Lévis, au Québec, seul membre d’une famille nombreuse à naître avec le nanisme. Son père mesurait 6 pi 3 po, sa mère 5 pi 9 po. Il n’a jamais dépassé environ trois pieds.");
+    h += pp("He performed in vaudeville and with the Barnum & Bailey and Forepaugh & Sells Brothers circuses, and gave himself the stage title Count Philippe Nicol, in the tradition of General Tom Thumb.",
+            "Il se produit en vaudeville ainsi qu’avec les cirques Barnum & Bailey et Forepaugh & Sells Brothers, et se donne le titre de scène de comte Philippe Nicol, dans la tradition du général Tom Pouce.");
+    h += pp("In 1906, through Joseph-Octave Champagne — manager of the Québec strongman Louis Cyr — he met Rose Dufresne, born 17 June 1887 in Lowell, Massachusetts. She was also a little person: a pianist and a skilled cook who had made her own way through the circus circuit. They married in Lowell on 21 November 1906. The wedding drew such crowds that businesses and factories closed their doors for the ceremony.",
+            "En 1906, par l’entremise de Joseph-Octave Champagne — gérant de l’homme fort québécois Louis Cyr — il rencontre Rose Dufresne, née le 17 juin 1887 à Lowell, au Massachusetts. Elle est elle aussi une personne de petite taille : pianiste et fine cuisinière, elle avait fait son propre chemin sur le circuit des cirques. Ils se marient à Lowell le 21 novembre 1906. La noce attire une telle foule que commerces et usines ferment leurs portes pour la cérémonie.");
+    h += srcLine(["main", "propos"]);
+    h += "</div>";
+
+    h += '<h2 style="margin-top:16px"' + A("The house at 961 Rachel", "La maison du 961, rue Rachel") + ">The house at 961 Rachel</h2>";
+    h += '<div class="card cardpad">';
+    h += pp("In 1913 they left circus life, moved to Montréal and opened their first attraction at 415 rue Rachel Est, now 507a.",
+            "En 1913, ils quittent la vie de cirque, s’installent à Montréal et ouvrent leur première attraction au 415, rue Rachel Est, aujourd’hui le 507a.");
+    h += pp("In 1926, the year their son Philippe Jr. was born, they moved into a purpose-built house at 961 rue Rachel Est. From the street it was a standard Plateau triplex. Inside, every ceiling was lowered and every doorknob, mirror, stair, chair, lamp, picture frame, radio, piano and grandfather clock was built to their scale. Only the entrance hall kept a normal height. Two stone lions guarded the door.",
+            "En 1926, l’année de la naissance de leur fils Philippe fils, ils emménagent dans une maison construite pour eux au 961, rue Rachel Est. De la rue, un triplex du Plateau tout ce qu’il y a de plus ordinaire. À l’intérieur, tous les plafonds étaient abaissés et chaque poignée de porte, miroir, escalier, chaise, lampe, cadre, radio, piano et horloge grand-père était bâti à leur échelle. Seul le vestibule gardait une hauteur normale. Deux lions de pierre gardaient la porte.");
+    h += pp("It was open from 9:00 to 23:00, every day. Rose played piano in the parlour. Visitors of average height had to crouch to see themselves in the mirrors.",
+            "C’était ouvert de 9 h à 23 h, tous les jours. Rose jouait du piano au salon. Les visiteurs de taille moyenne devaient s’accroupir pour se voir dans les miroirs.");
+    h += srcLine(["jdm", "plateau"]);
+    h += "</div>";
+
+    h += '<div class="gal" style="margin-top:12px">' +
+      IMG("montreal_skyline_dusk.jpg", "Montréal at dusk — illustrative", "Montréal au crépuscule — illustratif") +
+      IMG("crescent_street_looking_down.jpg", "A Montréal street — illustrative", "Une rue de Montréal — illustratif") + "</div>";
+    h += '<p class="tiny" style="margin-top:6px"' + A("Both images are illustrative views of Montréal. Neither shows the Palais des Nains.",
+      "Les deux images sont des vues illustratives de Montréal. Aucune ne montre le Palais des Nains.") +
+      ">Both images are illustrative views of Montréal.</p>";
+
+    h += '<h2 style="margin-top:16px"' + A("After", "Après") + ">After</h2>";
+    h += '<div class="card cardpad">';
+    h += pp("Philippe died on 26 May 1940. Rose died on 24 October 1964. After Rose’s death, Huguette Rioux-Bastien, also a little person, ran a doll-repair workshop in the house and showed visitors the apartment from 1972 until it closed for good in 1992. The building has since been renovated beyond recognition; nothing of the interior remains.",
+            "Philippe meurt le 26 mai 1940. Rose meurt le 24 octobre 1964. Après la mort de Rose, Huguette Rioux-Bastien, elle aussi de petite taille, tient dans la maison un atelier de réparation de poupées et fait visiter l’appartement de 1972 jusqu’à la fermeture définitive en 1992. L’immeuble a depuis été rénové au point d’être méconnaissable; rien de l’intérieur ne subsiste.");
+    h += srcLine(["mcr", "propos"]);
+    h += "</div>";
+
+    h += '<h2 style="margin-top:16px"' + A("Why this is here", "Pourquoi c’est ici") + ">Why this is here</h2>";
+    h += '<div class="card cardpad">';
+    h += pp("The couple controlled their own narrative. They set the terms, charged the admission, kept the proceeds, and built the room to fit themselves rather than shrinking to fit a room built for someone else.",
+            "Le couple maîtrisait son propre récit. Ils fixaient les conditions, percevaient l’entrée, gardaient les recettes, et ont bâti la pièce à leur mesure plutôt que de se rapetisser pour entrer dans une pièce conçue pour quelqu’un d’autre.");
+    h += pp("That is the same principle this whole surface is built on: consent, and the right to set the terms of your own visibility.",
+            "C’est exactement le principe sur lequel toute cette interface est bâtie : le consentement, et le droit de fixer soi-même les conditions de sa propre visibilité.");
+    h += pp("Montréal was a city where that was possible — where difference could be met with curiosity and affection rather than pity or exclusion. We hold that up as the example.",
+            "Montréal était une ville où cela était possible — où la différence pouvait être accueillie avec curiosité et affection plutôt qu’avec pitié ou exclusion. C’est cet exemple que nous retenons.");
+    h += "</div>";
+
+    h += '<h2 style="margin-top:16px"' + A("An honest note", "Une note honnête") + ">An honest note</h2>";
+    h += '<p class="note"><b' + A("We do not pretend otherwise.", "Nous ne prétendons pas le contraire.") +
+      ">We do not pretend otherwise.</b> <span" +
+      A("By today’s standards, a paid tourist attraction built on watching a family live raises real questions. What we take from it is not the dime museum. It is the self-determination — and the fact that a city made room.",
+        "Selon les critères d’aujourd’hui, une attraction touristique payante fondée sur le fait de regarder une famille vivre soulève de vraies questions. Ce que nous en retenons, ce n’est pas le musée à dix sous. C’est l’autodétermination — et le fait qu’une ville ait fait de la place.") +
+      ">By today’s standards, a paid tourist attraction built on watching a family live raises real questions.</span></p>";
+
+    h += '<h2 style="margin-top:16px"' + A("At The Brass Door", "À la Brass Door") + ">At The Brass Door</h2>";
+    h += '<div class="card cardpad">';
+    [["Welcome", "Accueil",
+      "Little people are welcomed as honoured guests on rue Crescent.",
+      "Les personnes de petite taille sont accueillies comme des invitées d’honneur sur la rue Crescent."],
+     ["Access", "Accès",
+      "Step-free access, seating and reach are noted honestly, venue by venue, where they are known — and marked unknown where they are not.",
+      "L’accès sans marche, les places assises et la portée sont notés honnêtement, lieu par lieu, lorsqu’ils sont connus — et marqués comme inconnus lorsqu’ils ne le sont pas."],
+     ["No measurement", "Aucune mesure",
+      "This surface will never record or classify anyone’s body. There is no field for it and there never will be.",
+      "Cette interface n’enregistrera ni ne classera jamais le corps de qui que ce soit. Aucun champ ne le permet et aucun ne le permettra."]
+    ].forEach(function (r) {
+      h += '<div class="kv"><div class="k"' + A(r[0], r[1]) + ">" + esc(tx(r[0], r[1])) + '</div><div class="v"' +
+        A(r[2], r[3]) + ">" + esc(tx(r[2], r[3])) + "</div></div>";
+    });
+    h += "</div>";
+    h += '<p class="tiny" style="margin-top:8px"' + A("No venue has agreed to any of this yet. This is a wireframe-stage statement of intent, nothing more.",
+      "Aucun établissement n’a encore accepté quoi que ce soit de tout ceci. Il s’agit d’une déclaration d’intention au stade de la maquette, rien de plus.") +
+      ">No venue has agreed to any of this yet.</p>";
+
+    h += '<h2 style="margin-top:16px"' + A("Sources", "Sources") + ">Sources</h2>";
+    h += '<div class="card cardpad">';
+    [["main", "History of the house and of the couple", "Histoire de la maison et du couple"],
+     ["jdm", "Interior, hours and daily life", "Intérieur, heures d’ouverture et vie quotidienne"],
+     ["propos", "Biography, marriage and the move to Montréal", "Biographie, mariage et installation à Montréal"],
+     ["plateau", "The two addresses on rue Rachel Est", "Les deux adresses de la rue Rachel Est"],
+     ["mcr", "Peer-reviewed study of the attraction and its afterlife", "Étude évaluée par les pairs sur l’attraction et sa postérité"]
+    ].forEach(function (r) {
+      h += '<div class="kv" style="display:block"><p style="margin:0;font-size:14px">' + srcLink(r[0]) + "</p>" +
+        '<p class="tiny" style="margin:2px 0 0"' + A(r[1], r[2]) + ">" + esc(tx(r[1], r[2])) + "</p></div>";
+    });
+    h += "</div>";
+    h += '<p class="tiny" style="margin-top:10px"' + A("Every fact on this screen comes from the five sources above. Nothing has been added from memory.",
+      "Chaque fait de cet écran provient des cinq sources ci-dessus. Rien n’a été ajouté de mémoire.") +
+      ">Every fact on this screen comes from the five sources above.</p>";
+    h += "</div>";
+    return h;
   }
 
   function scr_places() {
@@ -846,7 +1008,8 @@
     "#/room": scr_room,
     "#/street": scr_street,
     "#/governance": scr_governance,
-    "#/credits": scr_credits
+    "#/credits": scr_credits,
+    "#/palais": scr_palais
   };
 
   var TABS = [
@@ -866,6 +1029,8 @@
   }
 
   var SHEET_LINKS = [
+    ["#/palais", "The Palace on Rachel Street", "Le Palais des Nains",
+      "A Montréal tradition · 1926–1992", "Une tradition montréalaise · 1926-1992"],
     ["#/room", "3D room", "Salle 3D", "Mesh of the pub, no people", "Maillage du pub, sans personne"],
     ["#/consent", "Consent register", "Registre de consentement", "Default DENY, per-purpose", "REFUS par défaut, par finalité"],
     ["#/street", "Street density", "Densité de la rue", "Anonymous counts only", "Comptes anonymes seulement"],
