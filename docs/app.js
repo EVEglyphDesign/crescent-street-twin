@@ -232,18 +232,18 @@
       html += "</div>";
     });
     html += '<p class="tiny" style="margin-top:10px">' + S("Menu source:", "Source du menu :") +
-      ' <a href="' + esc(v.menu_source_url) + '" target="_blank" rel="noopener">' + esc(v.menu_source_url.replace(/^https?:\/\//, "").slice(0, 44)) + "…</a></p>";
+      ' <a href="' + esc(v.menu_source_url) + '" rel="noopener">' + esc(v.menu_source_url.replace(/^https?:\/\//, "").slice(0, 44)) + "…</a></p>";
     return html;
   }
 
   function deliveryBlock(v) {
     var html = "";
     if (v.ubereats_url) {
-      html += '<a class="btn" href="' + esc(v.ubereats_url) + '" target="_blank" rel="noopener"' +
+      html += '<a class="btn" href="' + esc(v.ubereats_url) + '" rel="noopener"' +
         A("Order on Uber Eats", "Commander sur Uber Eats") + ">Order on Uber Eats</a>";
     }
     if (v.doordash_url) {
-      html += '<a class="btn" style="margin-top:8px" href="' + esc(v.doordash_url) + '" target="_blank" rel="noopener"' +
+      html += '<a class="btn" style="margin-top:8px" href="' + esc(v.doordash_url) + '" rel="noopener"' +
         A("Order on DoorDash", "Commander sur DoorDash") + ">Order on DoorDash</a>";
     }
     if (!v.ubereats_url && !v.doordash_url) {
@@ -368,7 +368,7 @@
   };
   function srcLink(k) {
     var s = PALAIS_SRC[k];
-    return '<a href="' + esc(s[0]) + '" target="_blank" rel="noopener"' + A(s[1], s[2]) + ">" + esc(tx(s[1], s[2])) + "</a>";
+    return '<a href="' + esc(s[0]) + '" rel="noopener"' + A(s[1], s[2]) + ">" + esc(tx(s[1], s[2])) + "</a>";
   }
   function srcLine(keys) {
     var out = '<p class="srcline">' + S("Source:", "Source :") + " ";
@@ -530,7 +530,7 @@
     h += '<div class="kv"><div class="k"' + A("Address", "Adresse") + '>Address</div><div class="v">' + esc(v.address) + "</div></div>";
     h += '<div class="kv"><div class="k"' + A("Source", "Source") + '>Source</div><div class="v"><span' +
       A("The venue\u2019s own page:", "La page du lieu :") + ">" + esc(tx("The venue\u2019s own page:", "La page du lieu :")) +
-      '</span> <a href="' + esc(v.source_url) + '" target="_blank" rel="noopener">' +
+      '</span> <a href="' + esc(v.source_url) + '" rel="noopener">' +
       esc(v.source_url.replace(/^https?:\/\//, "")) + "</a></div></div>";
     h += "</div>";
 
@@ -555,7 +555,7 @@
       dg.signals.forEach(function (g) {
         h += '<div class="sig">' + signalType(g.type) + unverifiedTag(g.confidence) +
           "<p style=\"margin:2px 0 0\">" + sigText(g) + "</p>" +
-          '<p class="src">' + S("Source:", "Source :") + ' <a href="' + esc(g.source_url) + '" target="_blank" rel="noopener">' +
+          '<p class="src">' + S("Source:", "Source :") + ' <a href="' + esc(g.source_url) + '" rel="noopener">' +
           esc(String(g.source_url).replace(/^https?:\/\//, "").replace(/\/$/, "")) + "</a> · " + confLine(g) + "</p></div>";
       });
     } else {
@@ -661,7 +661,7 @@
       r.signals.forEach(function (g) {
         h += '<div class="sig">' + signalType(g.type) + unverifiedTag(g.confidence) +
           '<p class="found">' + sigText(g) + "</p>" +
-          '<p class="src">' + S("Source:", "Source :") + ' <a href="' + esc(g.source_url) + '" target="_blank" rel="noopener">' +
+          '<p class="src">' + S("Source:", "Source :") + ' <a href="' + esc(g.source_url) + '" rel="noopener">' +
           esc(String(g.source_url).replace(/^https?:\/\//, "").replace(/\/$/, "")) + "</a> · " +
           '<span class="sub" style="font-size:12px">' + confLine(g) + "</span></p></div>";
       });
@@ -964,7 +964,7 @@
       h += '<div class="creditrow">' + IMG(c.filename, c.what_it_shows, c.what_it_shows) +
         '<div class="m"><h3>' + esc(c.filename) + "</h3>" +
         "<p>" + esc(c.photographer) + " · " + esc(c.license) + "</p>" +
-        '<a href="' + esc(c.source_page_url) + '" target="_blank" rel="noopener">' + esc(c.source_page_url) + "</a></div></div>";
+        '<a href="' + esc(c.source_page_url) + '" rel="noopener">' + esc(c.source_page_url) + "</a></div></div>";
     });
     h += "</div>";
 
@@ -982,12 +982,12 @@
     VENUES.forEach(function (v) {
       h += '<div class="kv" style="display:block"><h3>' + esc(v.name) + "</h3>" +
         '<p class="tiny">' + S("Hours, address, blurb, known-for:", "Heures, adresse, description, reconnu pour :") +
-        ' <a href="' + esc(v.source_url) + '" target="_blank" rel="noopener">' + esc(v.source_url) + "</a></p>" +
-        '<p class="tiny">' + S("Menu:", "Menu :") + ' <a href="' + esc(v.menu_source_url) + '" target="_blank" rel="noopener">' +
+        ' <a href="' + esc(v.source_url) + '" rel="noopener">' + esc(v.source_url) + "</a></p>" +
+        '<p class="tiny">' + S("Menu:", "Menu :") + ' <a href="' + esc(v.menu_source_url) + '" rel="noopener">' +
         esc(v.menu_source_url) + "</a>" +
         (v.menu_source === "not published" ? " · <span" + A("prices not published", "prix non publiés") + ">prices not published</span>" : "") + "</p>" +
         (v.ubereats_url ? '<p class="tiny">' + S("Uber Eats:", "Uber Eats :") + ' <a href="' + esc(v.ubereats_url) +
-          '" target="_blank" rel="noopener">' + esc(v.ubereats_url) + "</a></p>" : "") +
+          '" rel="noopener">' + esc(v.ubereats_url) + "</a></p>" : "") +
         "</div>";
     });
     h += "</div>";

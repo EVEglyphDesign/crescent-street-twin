@@ -1,0 +1,22 @@
+name: Anchor guard
+
+on:
+  push:
+    paths:
+      - "docs/**"
+      - "scripts/anchor-guard.js"
+      - ".github/workflows/anchor-guard.yml"
+  pull_request:
+    paths:
+      - "docs/**"
+      - "scripts/anchor-guard.js"
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: node scripts/anchor-guard.js
